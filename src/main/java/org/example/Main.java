@@ -1,3 +1,5 @@
+package org.example;
+
 import com.google.gson.Gson;
 import java.util.HashMap;
 import java.util.Map;
@@ -12,8 +14,8 @@ public class Main{
 
         System.out.println(json);
 
-        int x = 4;
+        int x = 10;
         int y = 5;
-        System.out.println(x - y);
+        System.out.println(x + y);
     }
 }
